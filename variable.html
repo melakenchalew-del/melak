@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables and Constants</title>
+</head>
+<body>
+
+  <h1>Variables and Constants in JavaScript</h1>
+
+  <script>
+    // Using var
+    var city = "London";
+    document.write("<p>City (var): " + city + "</p>");
+    city = "Paris"; // Reassignment
+    document.write("<p>Updated City (var): " + city + "</p>");
+    // Using let
+    let country = "UK";
+    document.write("<p>Country (let): " + country + "</p>");
+    country = "France"; // Reassignment
+    document.write("<p>Updated Country (let): " + country + "</p>");
+    // Using const
+    const continent = "Europe";
+    document.write("<p>Continent (const): " + continent + "</p>");
+    // continent = "Asia"; // ❌ Error: cannot reassign const
+  </script>
+
+</body>
+</html>
