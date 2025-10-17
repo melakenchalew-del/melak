@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+  /*Original Array – Displays the starting array.
+
+push() – Adds an element at the end of the array.
+
+pop() – Removes the last element and shows it.
+
+shift() – Removes the first element and shows it.
+
+unshift() – Adds an element at the beginning.
+
+slice() – Returns a portion of the array without modifying the original.
+
+splice() – Can remove, replace, or insert elements; modifies the array.
+
+includes() – Checks if a specific value exists in the array.
+
+find() – Returns the first element that satisfies a condition.*/
+    let numbers = [1, 2, 3, 4, 5];
+
+    let squares = numbers.map(n => n * n);
+    let evens = numbers.filter(n => n % 2 === 0);
+    let sum = numbers.reduce((total, n) => total + n, 0);
+document.write(numbers + "<br>");
+document.write(squares + "<br>");
+document.write(evens + "<br>");
+document.write(sum + "<br>");
+  </script>
+</body>
+</html>
