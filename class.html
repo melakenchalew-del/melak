@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>JavaScript Classes Demo</h2>
+
+  <script>
+    class Rectangle {
+      constructor(width, height) {
+        this.width = width;
+        this.height = height;
+      }
+
+      area() {
+        return this.width * this.height;
+      }
+    }
+    let rect = new Rectangle(5, 3);
+    document.write("Area: " + rect.area() + "<br>");
+  </script>
+</body>
+</html>
