@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    try {
+      let person;
+      document.write(person.name); 
+    } catch(error) {
+      document.write("An error occurred: " + error.message + "<br>");
+    } finally {
+      document.write("This always runs.");
+    }
+  </script>
+</body>
+</html>
